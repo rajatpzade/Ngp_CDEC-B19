@@ -24,7 +24,8 @@
 `docker ps -q`  -q container ids only
 `docker kill `docker ps -q``  to kill all running containers
 docker logs f0d2c97b0291 show docker logs
-docker cp containerid:<SOURCE> <DEST> 
+docker cp containerid:<SOURCE> <DEST>
+docker cp index.html d69459f19001:/usr/local/apache2/htdocs 
 docker top <CONTAINERID> - to show contaienrprocesses
 docker pull alpine - pull image from container registry only
 docker login - to login in dockerhub
