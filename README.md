@@ -58,5 +58,8 @@ docker push rajatpzade/my-nginx:v1.0.2 - to push image in docker registry
 
 docker save -o my-nginx.tar <IMAGEID> - save image as archive
 
+
 docker images -q - list of image ids
+
 docker image rm `docker images -q`  - to remove all docker images
+
