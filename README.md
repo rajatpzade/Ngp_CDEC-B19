@@ -28,12 +28,19 @@
 `docker restart <CONTAINERID>` to start container
 
 `docker kill <CONTAINERID>` to send killsig to the container
+
 `docker rm <CONTAINERID>` to remove stopped
+
 `docker rm -f <CONTAINERID>` -f force to remove running container
+
 `docker ps -q`  -q container ids only
+
 `docker kill `docker ps -q``  to kill all running containers
+
 docker logs f0d2c97b0291 show docker logs
+
 docker cp containerid:<SOURCE> <DEST>
+
 docker cp index.html d69459f19001:/usr/local/apache2/htdocs 
 docker top <CONTAINERID> - to show contaienrprocesses
 docker pull alpine - pull image from container registry only
