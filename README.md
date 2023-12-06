@@ -43,12 +43,20 @@ docker cp containerid:<SOURCE> <DEST>
 
 docker cp index.html d69459f19001:/usr/local/apache2/htdocs 
 docker top <CONTAINERID> - to show contaienrprocesses
+
 docker pull alpine - pull image from container registry only
+
 docker login - to login in dockerhub
+
 docker login <REGISTRY_ENDPOINT> - to login in oerticular registry
+
 docker commit a32f7faf0500 - to save container state into contaienr image
+
 docker tag 33f1b2f100c6 <USERNAME>/<REPONAME>:<TAG>  - to give name to the image
+
 docker push rajatpzade/my-nginx:v1.0.2 - to push image in docker registry
+
 docker save -o my-nginx.tar <IMAGEID> - save image as archive
+
 docker images -q - list of image ids
 docker image rm `docker images -q`  - to remove all docker images
