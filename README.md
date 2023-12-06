@@ -9,6 +9,7 @@
 `docker ps`     # to list running containers
 
 `docker inspect <CONTAINER_ID||CONTAIENR_NAME>`  # Detailed information about container
+
 `docker run -d -p 8080:80 <IMAGE>` # -p map HOST_PORT:COTNAINER_PORT
 `docker run -d -P <IMAGE>` # -P map random host port with container port
 `docker images` # list of docker images in local system
