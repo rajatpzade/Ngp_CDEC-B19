@@ -11,14 +11,22 @@
 `docker inspect <CONTAINER_ID||CONTAIENR_NAME>`  # Detailed information about container
 
 `docker run -d -p 8080:80 <IMAGE>` # -p map HOST_PORT:COTNAINER_PORT
+
 `docker run -d -P <IMAGE>` # -P map random host port with container port
+
 `docker images` # list of docker images in local system
+
 `docker exec -it <CONTAINERID> <COMMAND>` to execute any command inside the container
+
 <<<<<<< HEAD
 `docker exec -it <CONTAINERID> bash`  to work on container's bash terminal
+
 `docker stop <CONTAINERID>` to stop container
+
 `docker start <CONTAINERID>` to start container
+
 `docker restart <CONTAINERID>` to start container
+
 `docker kill <CONTAINERID>` to send killsig to the container
 `docker rm <CONTAINERID>` to remove stopped
 `docker rm -f <CONTAINERID>` -f force to remove running container
